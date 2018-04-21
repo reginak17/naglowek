@@ -1,0 +1,36 @@
+ @media all and (max-width:1170px) {
+     header {
+         height: 70vh;
+         background-image: url('../obrazy/man-2.jpg');
+     }
+
+     .header-text {
+         top: 20%;
+         transform: translateX(60%);
+         width: 90%;
+         text-align: left;
+         color: white;
+
+     }
+
+ }
+
+
+
+ @media all and (max-width: 992px) {
+     header {
+         height: 50vh;
+         background-image: url('../obrazy/man-1.jpg');
+         overflow: visible;
+     }
+     .header-text {
+         top: 100%;
+        transform: translateY(-10%);
+        width: 100%;
+        text-align: center;
+        color: black;
+        font-size: 10px;
+        
+     }
+ }
+     
